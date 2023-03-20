@@ -139,7 +139,7 @@ public class Book implements IShop,Comparable<Book> {
         this.exportPrice = importPrice * RATE;
 
         //Chon tac gia:
-        System.out.println("Vui long chon tac gia theo STT:");
+        System.out.println("Please choose the number of author:");
         for (int i = 0; i < BookManagement.authors.size(); i++) {
             System.out.println(i + 1 + ". " + BookManagement.authors.get(i).getAuthorName());
         }
